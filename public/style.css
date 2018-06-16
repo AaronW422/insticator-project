@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  margin: auto 0;
+}
+
+p, h3 {
+  margin: 2px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.button {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 2px auto;
+  padding: 10px 20px;
+}
+
+.add-cart-button {
+  background-color: #008BCA;
+  color: white;
+  border: solid 1px #008BCA;
+}
+
+.add-cart-button:hover:enabled {
+  background-color: white;
+  color: #008BCA;
+}
+
+.add-cart-button:disabled {
+  background-color: #CCCCCC;
+  color: black;
+  border-color: #CCCCCC;
+}
+
+.inc-qty-button, .dec-qty-button {
+  background-color: #008BCA;
+  color: white;
+  border: none;
+}
+
+.cart-clear-button {
+  width: 40%;
+  background-color: red;
+  border: solid 1px red;
+  color: white;
+  margin: 0px 10px;
+}
+
+.cart-clear-button:hover {
+  background-color: white;
+  color: red;
+}
+
+.cart-checkout-button {
+  width: 40%;
+  background-color: orange;
+  border: solid 1px orange;
+  color: white;
+  margin: 0px 10px;
+}
+
+.cart-checkout-button:hover {
+  background-color: white;
+  color: orange;
+}
+
+.remove-item-button {
+  background-color: #FF4C4C;
+  border: solid 1px #FF4C4C;
+  color: white;
+}
+
+.remove-item-button:hover {
+  background-color: white;
+  color: #FF4C4C;
+}
+
+.cart-container {
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border-left: 2px solid grey;
+  margin: 2px 10px;
+  padding: 5px;
+  width: 30%;
+}
+
+.cart-card {
+  height: 30%;
+  margin: 20px 0;
+}
+
+.item-info {
+  width: 35%;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.cart-total {
+  margin: 0 0 15px 0;
+}
+
+.fruit-container {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin: 10px 2px;
+  width: 70%;
+}
+
+.fruit-card {
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  height: 300px;
+  width: 24%;
+  min-width: 255px;
+}
+
+.fruit-thumb, .item-thumb {
+  height: 150px;
+  width: auto;
+  margin: auto;
+  padding: 10px 0px;
+}
+
+.fruit-caption {
+  flex-direction: column; 
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0px;
+}
